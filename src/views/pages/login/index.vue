@@ -43,6 +43,7 @@ export default {
         this.$router.push({path: this.redirect || '/'})
       }).catch(err => {
         console.log(err)
+        alert('Username/password incorrect!')
       })
     }
   }
